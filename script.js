@@ -76,8 +76,6 @@ const agregarAlCarrito = (id) => {
   </div>`
   productosEnCarrito.push(productoElegido)
   document.getElementById("cantidad").innerHTML = ++cantidadCarrito
-  const btnEliminar = document.getElementById(`btn-${id}`)
-  btnEliminar.removeAttribute("hidden")
   actualizarIcono()
 };
 
